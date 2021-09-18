@@ -1,0 +1,367 @@
+html {
+    font-family: 'Exo', sans-serif;
+    margin: 30px auto;
+    min-width: 320px;
+    background-color: black;
+  }
+  
+  #header-img, #nier-story, #feature-img1, #awards-img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+  }
+  
+  main {
+    margin: 40px auto;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    #header-img {
+      margin-top: 20%;
+    }
+  }
+  #nier-logo {
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
+  
+  #nav-bar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 20%;
+    text-align: right;
+    list-style-type: circle;
+    z-index: 999;
+    direction: rtl;
+  }
+  
+  .nav-link {
+    display: list-item;
+    color: rgba(242, 242, 242);
+    text-align: right;
+    margin-right: 45px;
+    list-style-position: inside;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+  }
+  
+  .nav-link:hover {
+    color: rgba(179, 0, 0);
+    transition-delay: 0;
+    transition-property: all;
+    transition-duration: 350ms;
+    transition-timing-function: ease-in-out;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    #nav-bar {
+      width: 100%;
+      font-size: 10px;
+      float: none;   
+      background-color: black;
+      text-align: center;
+     }
+  }
+  @media only screen and (max-width: 800px) {
+    .nav-link {
+      display: list-item;
+      list-style-type: none;
+      overflow: hidden;
+      text-align: center;
+      margin: auto;   
+    }
+  }
+  
+  #story-container {
+    position: relative;
+    top: 40px;
+    text-align: center;
+    margin: auto;
+  }
+  
+  #story {
+    position: absolute;
+    bottom: 20%;
+    left: 15%;
+    background-color: rgb(38, 38, 38, 0.5);
+    color: white;
+    padding: 25px;  
+    width: 320px;
+    height: auto;
+  }
+  @media only screen and (max-width: 800px){
+    #story{
+      display: block;
+      position: relative;
+      left: 0;
+      margin: 30px auto;
+      font-weight: 10px;
+      width: 80%;
+      height: auto;
+    }}
+  
+    
+  #trailer {
+    position: relative;
+    display: block;
+    margin: auto;
+  }
+
+  iframe {
+    display: block;
+    margin: 0 auto;
+ }
+  
+  @media only screen and (max-width: 800px) {
+   #trailer {
+     width: 320px;
+     height: 250px;
+  }
+  }
+  
+  #features {
+    position: relative;
+    top: 40px;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .feature-ad {
+    position: relative;
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: white;
+    width: 50%;
+    font-size: 30px;
+    padding: 10px;
+  }
+    
+  #dlc{
+    display: flex;
+    width: 70%;  
+    margin: auto;
+    color: white;
+    text-align: left;
+  }
+  
+  #accessories {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: auto;
+    padding: 15px;
+  }
+  
+  #feature-img2 {
+    display: block;
+    margin: auto;
+    width: 60%;
+    height: auto;
+    padding: 15px;
+  }
+    
+  #feature-img3 {
+    display: block;
+    margin: auto;
+    width: 70%;
+    height: auto;
+    padding: 10px;
+  }
+  
+  #costume {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: auto;
+    padding: 10px;
+  }
+    
+  @media only screen and (max-width: 800px) {
+    #dlc {
+      flex-direction: column;
+      }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    #accessories, #costume {
+      display: block;
+      margin: auto;
+      width: 100%;
+    }
+  }
+  
+  #awards {
+    position: relative;
+    top: 0.5em;
+    text-align: center;
+    margin: auto;
+  }
+    
+  .awards {
+    position: absolute;
+    color: white;
+    top: 20%;;
+    left: 12%;
+    background-color: rgb(38, 38, 38, 0.3);
+    color: white;
+    padding: 15px;  
+    width: 400px;
+    height: auto;
+    line-height: 15px;
+  }
+  
+  @media only screen and (max-width: 900px){
+    #awards{
+      display: block;
+      position: relative;
+      left: 0;
+      margin: 20px auto;
+      font-size: 15px;
+      width: 50%;
+      height: auto;
+    }}
+  
+  .title {
+    font-size: 25px;
+    color: rgba(230, 184, 0)
+  }
+  
+  #PS4 {
+    display: none;
+  }
+  
+  #PS4:target {
+    display: block;
+  }
+  
+  #xbox {
+    display: none;
+  }
+  
+  #xbox:target {
+    display: block;
+  }
+   
+  #steam {
+    display: none;
+  }
+  
+  #steam:target {
+    display: block;
+  }
+  #platform {
+    position: relative;
+    margin-top: 70px;
+    margin-bottom: 40px;
+  }
+  
+  #platform p {
+    font-size: 40px;
+    color: white;
+  }
+  
+  #platform img {
+    display: inline-block;
+    margin: auto;
+    width: 320px;
+    height: 402px;
+  }
+  
+  #platform ul{
+    padding: 10px 10px; 
+  }
+  
+  #platform li{
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 10px; 
+    font-size: 20px;
+  }
+  
+  #platform a {
+    color: white;
+    text-decoration: none;
+  }
+   
+  #platform a:hover{
+    color: rgba(179, 0, 0);  
+  }
+  
+  #contact {
+    position: relative;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  #contact p {
+    font-size: 30px;
+    color: white;
+  }
+  
+  #email {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    height: auto;
+  }
+  #submit {
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    height: 30px;
+  }
+  
+  #footer-logo {
+    display: block;
+    margin: 50px auto;
+    text-align: center;
+    width: 60%;
+  }
+  
+  #footer-logo li{
+    display: inline-block;
+    margin: auto;
+    vertical-align: middle;
+  }
+  
+  #footer-logo img{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    vertical-align: middle;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    #footer-logo li{
+      display: block;
+      margin: auto;    
+    }
+  }
+  
+  footer {
+    display: block;
+    margin: auto;
+    color: white;
+    width: 60%;
+    text-decoration: none;
+  }
+  
