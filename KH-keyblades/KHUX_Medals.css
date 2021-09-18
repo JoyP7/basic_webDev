@@ -1,0 +1,175 @@
+html {
+    font-family: 'Exo', sans-serif;
+    position: relative;
+    margin: 70px auto;
+    width: 70%;
+    right: 60px;
+    padding: auto 15px;
+  }
+  
+  .khuxLogo {
+    display: block;
+    margin: auto;
+    width: 70%;
+  }
+  
+  #login img {
+    max-width: 60px;
+    height: auto;
+    float: right;
+    position: fixed;
+    right: 20px;
+    bottom: 60px;
+  }
+  
+  #login p {
+    border: 1.5px dashed teal;
+    border-radius: 10px;
+    right: 20px;
+    bottom: 180px;
+    position: fixed;
+    padding: 5px;
+    margin: auto;
+    font-size: 13px;
+  }
+  
+  h2 {
+    color: rgba(188, 33, 80);
+    margin-left: 15px;
+    font-size: 27px;
+  }
+  
+  h3 {
+    color: rgba(188, 33, 80);
+    margin-left: 15px;
+    font-size: 20px;
+  }
+  
+  #navbar {
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 15px;
+  }
+  
+  #navbar ul {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    background-color: rgba(78, 163, 147, 0.7);
+    border-radius: 5px;
+  }
+  
+  #navbar li {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+  }
+  
+  #navbar a {
+    color: white;
+  }
+  
+  #navbar li:hover {
+    background-color: rgb(188, 33, 80);
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+   #content {
+     text-align: center;
+     margin: auto;
+     position: relative; 
+     top: 25px; 
+  }
+  
+   #content ul {
+     padding: 10px 15px; 
+     
+  }
+   #content li {
+     display: inline-block;
+     padding: 10px 15px;
+     margin: 5px;
+     text-decoration: none;
+     background-color: rgba(78, 163, 147, 0.5);
+     border-radius: 5px;
+   }
+   
+   #content a {
+    color: white;
+  }
+  
+  #content a:hover {
+    color: rgba(188, 33, 80);
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgba(0, 128, 128);
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: rgb(188, 33, 80);
+  }
+  
+  p {
+    line-height: 25px;
+  } 
+  
+  table,
+  th,
+  td {
+    border: 1.5px solid silver;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+  }
+  
+  img {
+    display: inline-block;
+    margin: auto;
+    vertical-align: middle;
+    padding: 10px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin: auto;
+  }
+  
+  .SAtt-detail{
+    display: inline-block;
+    margin: auto;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .SAttBonus table {
+    width: 50%;
+    padding: 5px;
+  }
+  
+  .ListSkill table {
+    width: 100%;
+    padding: 5px;
+  } 
+  
+  .skill {
+    text-align: left;
+  }
+  
+  .trait {
+    text-align: left;
+  }
+  
+  footer {
+    margin-left: 15px;
+    margin-top: 50px;
+  }
+  

@@ -1,0 +1,258 @@
+html {
+    font-family: 'Exo', sans-serif;
+    position: relative;
+    margin: 70px auto;
+    width: 70%;
+    right: 60px;
+    padding: auto 15px
+  }
+  
+  .khuxLogo {
+    display: block;
+    margin: auto;
+    width: 70%;
+  }
+  
+  #login img {
+    max-width: 60px;
+    height: auto;
+    float: right;
+    position: fixed;
+    right: 20px;
+    bottom: 60px;
+  }
+  
+  #login p {
+    border: 1.5px dashed teal;
+    border-radius: 10px;
+    right: 20px;
+    bottom: 180px;
+    position: fixed;
+    padding: 5px;
+    margin: auto;
+    font-size: 13px;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    #login {
+      display: none;
+    }
+      }
+  
+  h2 {
+    color: rgba(188, 33, 80);
+    margin-left: 15px;
+    font-size: 27px;
+  }
+  
+  #navbar {
+    text-align: center;
+    margin: auto;
+    position: relative; 
+    top: 15px;  
+  }
+  
+  #navbar ul {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    background-color: rgba(78, 163, 147, 0.7);
+    border-radius: 5px;
+  }
+  
+  #navbar li {
+     display: inline-block;
+     padding: 10px 15px;
+     margin: 5px;
+     text-decoration: none;
+  }
+   
+  #navbar a {
+    color: white;
+  }
+  
+  #navbar li:hover {
+    background-color: rgb(188, 33, 80);
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+   #content {
+     text-align: center;
+     margin: auto;
+     position: relative; 
+     top: 25px; 
+  }
+  
+   #content ul {
+     padding: 10px 15px; 
+     
+  }
+   #content li {
+     display: inline-block;
+     padding: 10px 15px;
+     margin: 5px;
+     text-decoration: none;
+     background-color: rgba(78, 163, 147, 0.5);
+     border-radius: 5px;
+   }
+   
+   #content a {
+    color: white;
+  }
+  
+  #content a:hover {
+    color: rgba(188, 33, 80);
+  }
+  
+  a{
+    text-decoration: none;
+    color: rgba(0, 128, 128);
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: rgb(188, 33, 80);
+  }  
+  
+  .intro {
+    position: relative; 
+    display: inline-block;
+  }
+   
+  .Ctitle {
+    text-align: center;
+  }
+  
+  p {
+    line-height: 25px;
+  }
+  
+  table, th, td {
+      border: 1.5px solid silver;
+      text-align: center;
+      padding: 10px;
+      margin: auto;
+  }
+  
+  img {
+    display: inline-block;
+    margin: auto;
+  }
+  
+  table {
+     border-collapse: collapse;
+     margin: auto;
+     width: 100%;
+  }
+  
+  #keyblades th {
+    color: rgba(188, 33, 80, 0.8);
+  }
+  
+  #Sublots th {
+    color: rgba(188, 33, 80, 0.8);
+  }
+  
+  #Sublots table {
+    border-collapse: collapse;
+    width: 40%;
+    margin: auto;
+  }
+  
+  #MythrilShard {
+    display: none;
+  }
+  
+  #MythrilShard:target {
+    display: block;
+  }
+  
+  #PowerGem {
+    display: none;
+  }
+  
+  #PowerGem:target {
+    display: block;
+  }
+  
+  #SpeedGem {
+    display: none;
+  }
+  
+  #SpeedGem:target {
+    display: block;
+  }
+  
+  #MagicGem {
+    display: none;
+  }
+  
+  #MagicGem:target {
+    display: block;
+  }
+  
+  #SunGem {
+    display: none;
+  }
+  
+  #SunGem:target {
+    display: block;
+  }
+  
+  #MoonGem {
+    display: none;
+  }
+  
+  #MoonGem:target {
+    display: block;
+  }
+  
+  #ElectrumOre {
+    display: none;
+  }
+  
+  #ElectrumOre:target {
+    display: block;
+  }
+  
+  #DarkMatter {
+    display: none;
+  }
+  
+  #DarkMatter:target {
+    display: block;
+  }
+  
+  .Materials img {
+    display: inline-block;
+    margin: auto;
+    vertical-align: center;
+  }
+  
+  #Materials ul{
+    padding: 10px 10px; 
+  }
+  
+  #Materials li{
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 5px;
+    text-decoration: none;
+    background-color: rgba(78, 163, 147, 0.5);
+    border-radius: 5px; 
+  }
+  
+  #Materials a {
+    color: rgba(0, 128, 128);
+  }
+  #Materials a:hover {
+    color: rgb(188, 33, 80);
+  }
+  
+  footer {
+    margin-left: 15px;
+    margin-top: 50px;
+  }
